@@ -7,6 +7,8 @@
 //
 
 #import "HitTestView.h"
+#import <CoreFoundation/CFRunLoop.h>
+#import <YYKit.h>
 
 @implementation HitTestView
 
@@ -18,6 +20,15 @@
 }
 
 - (void)setupViews {
+    
+//    NSDictionary *dic = [NSDictionary new];
+//    dic writeToFile:<#(nonnull NSString *)#> atomically:<#(BOOL)#>
+//    [NSDictionary dictionaryWithContentsOfFile:<#(nonnull NSString *)#>]
+    
+    
+//    [NSThread isMainThread]
+//    [NSThread mainThread]
+//    [NSThread currentThread]
     
 }
 

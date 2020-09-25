@@ -6,7 +6,33 @@ target 'iOSAnimation' do
   # use_frameworks!
 
   pod 'YYKit'
+  
+  pod 'SDWebImage'
+  
+  pod 'AFNetworking'
+  
+  pod 'Masonry'
+  
+  pod 'YTKNetwork'
+  
+  pod 'MJExtension'
+  
+  pod 'MJRefresh'
+  
+  pod 'SocketRocket'
+  
+  pod 'Realm'
+  
+  pod 'MBProgressHUD'
+  
+  pod 'ReactiveObjC'
+  
+  pod 'CTMediator'
 
+  pod 'SDCycleScrollView'
+  
+  pod 'FMDB'
+  
   # Pods for iOSAnimation
 
   target 'iOSAnimationTests' do

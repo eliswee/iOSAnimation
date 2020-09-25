@@ -3,10 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C1CCC6224DD3F5200B2293B /* FZRemoteAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1CCC6124DD3F5200B2293B /* FZRemoteAudioPlayer.m */; };
+		6C1CCC6624DD436300B2293B /* NSURL+audioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1CCC6524DD436300B2293B /* NSURL+audioPlayer.m */; };
+		6C1E4553251DC3E000AFA27D /* DynamicArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1E4552251DC3E000AFA27D /* DynamicArray.m */; };
+		6C3DAD3E24B851020001A9EA /* FZCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3DAD3D24B851020001A9EA /* FZCollectionViewController.m */; };
+		6C3DAD4124B8515E0001A9EA /* FZCollectionFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3DAD4024B8515E0001A9EA /* FZCollectionFlowLayout.m */; };
+		6C3DAD4424B8517A0001A9EA /* FZCollectionLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3DAD4324B8517A0001A9EA /* FZCollectionLayout.m */; };
+		6C3DAD4724B854BB0001A9EA /* FZCollectionViewController+delegates.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3DAD4624B854BB0001A9EA /* FZCollectionViewController+delegates.m */; };
 		6C4127E623B6105100EB157C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4127E523B6105100EB157C /* AppDelegate.m */; };
 		6C4127E923B6105100EB157C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4127E823B6105100EB157C /* SceneDelegate.m */; };
 		6C4127EC23B6105100EB157C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4127EB23B6105100EB157C /* ViewController.m */; };
@@ -16,8 +23,25 @@
 		6C4127F723B6105800EB157C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4127F623B6105800EB157C /* main.m */; };
 		6C41280123B6105A00EB157C /* iOSAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C41280023B6105A00EB157C /* iOSAnimationTests.m */; };
 		6C41280C23B6105A00EB157C /* iOSAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C41280B23B6105A00EB157C /* iOSAnimationUITests.m */; };
+		6C455ACD24D011D100C43E57 /* FZCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C455ACC24D011D100C43E57 /* FZCollectionViewCell.m */; };
+		6C455AD024D0240500C43E57 /* clearCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C455ACF24D0240500C43E57 /* clearCell.m */; };
 		6C49E34824ACAC4300D73CEB /* HitTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C49E34724ACAC4300D73CEB /* HitTestView.m */; };
 		6C49E34C24ACBBB500D73CEB /* HitTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C49E34B24ACBBB500D73CEB /* HitTestViewController.m */; };
+		6C49E34F24AD81C400D73CEB /* HitTestViewController_1.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C49E34E24AD81C400D73CEB /* HitTestViewController_1.m */; };
+		6C49E35224AD82F300D73CEB /* HitTestButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C49E35124AD82F300D73CEB /* HitTestButton.m */; };
+		6C49E36324AF312300D73CEB /* LocalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C49E36224AF312300D73CEB /* LocalViewController.m */; };
+		6C50F041250F890C00AA446E /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C50F040250F890400AA446E /* libsqlite3.tbd */; };
+		6C50F044250F893300AA446E /* FZSQLite3Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C50F043250F893300AA446E /* FZSQLite3Test.m */; };
+		6C50F047250F89CE00AA446E /* testModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C50F046250F89CE00AA446E /* testModel.m */; };
+		6C50F04B250F8B0600AA446E /* FZSQLiteTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C50F04A250F8B0600AA446E /* FZSQLiteTool.m */; };
+		6C50F04E250F8B1800AA446E /* FZModelTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C50F04D250F8B1800AA446E /* FZModelTool.m */; };
+		6C50F0522513016200AA446E /* MRC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C50F0512513016200AA446E /* MRC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6C50F05825130E1C00AA446E /* MRCTEST.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C50F05725130E1C00AA446E /* MRCTEST.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6C8089CE24CAC2A700FD94CD /* FZDownLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8089CD24CAC2A700FD94CD /* FZDownLoader.m */; };
+		6C8089D124CAC49A00FD94CD /* FZFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8089D024CAC49A00FD94CD /* FZFileManager.m */; };
+		6CDD17A224E0F36100501767 /* FZRemoteAudioPlayerResourceDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CDD17A124E0F36100501767 /* FZRemoteAudioPlayerResourceDelegate.m */; };
+		6CE396AA25184A1B00115594 /* Cpp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CE396A825184A1B00115594 /* Cpp.cpp */; };
+		6CE396BD251885E300115594 /* ARC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE396B22518771A00115594 /* ARC.m */; };
 		74EB3CE7FEE65BD72792EEFE /* libPods-iOSAnimationTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D45F96838EA7ECDB06E9BA /* libPods-iOSAnimationTests.a */; };
 		8C2F4F5B250C6C04871D0B00 /* libPods-iOSAnimation-iOSAnimationUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0341F1A11964A01236AFC1D2 /* libPods-iOSAnimation-iOSAnimationUITests.a */; };
 		F973DA011B154EA4E1A2B858 /* libPods-iOSAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DF6C73A3CC057DF3BB7E25B /* libPods-iOSAnimation.a */; };
@@ -47,6 +71,20 @@
 		2DF6C73A3CC057DF3BB7E25B /* libPods-iOSAnimation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSAnimation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32B7A96F370BBE8A08682308 /* Pods-iOSAnimation-iOSAnimationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSAnimation-iOSAnimationUITests.release.xcconfig"; path = "Target Support Files/Pods-iOSAnimation-iOSAnimationUITests/Pods-iOSAnimation-iOSAnimationUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3C8521B0559366B34CC1186F /* Pods-iOSAnimationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSAnimationTests.debug.xcconfig"; path = "Target Support Files/Pods-iOSAnimationTests/Pods-iOSAnimationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6C1CCC6024DD3F5200B2293B /* FZRemoteAudioPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZRemoteAudioPlayer.h; sourceTree = "<group>"; };
+		6C1CCC6124DD3F5200B2293B /* FZRemoteAudioPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZRemoteAudioPlayer.m; sourceTree = "<group>"; };
+		6C1CCC6424DD436300B2293B /* NSURL+audioPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURL+audioPlayer.h"; sourceTree = "<group>"; };
+		6C1CCC6524DD436300B2293B /* NSURL+audioPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSURL+audioPlayer.m"; sourceTree = "<group>"; };
+		6C1E4551251DC3E000AFA27D /* DynamicArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DynamicArray.h; sourceTree = "<group>"; };
+		6C1E4552251DC3E000AFA27D /* DynamicArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicArray.m; sourceTree = "<group>"; };
+		6C3DAD3C24B851020001A9EA /* FZCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZCollectionViewController.h; sourceTree = "<group>"; };
+		6C3DAD3D24B851020001A9EA /* FZCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZCollectionViewController.m; sourceTree = "<group>"; };
+		6C3DAD3F24B8515E0001A9EA /* FZCollectionFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZCollectionFlowLayout.h; sourceTree = "<group>"; };
+		6C3DAD4024B8515E0001A9EA /* FZCollectionFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZCollectionFlowLayout.m; sourceTree = "<group>"; };
+		6C3DAD4224B851790001A9EA /* FZCollectionLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZCollectionLayout.h; sourceTree = "<group>"; };
+		6C3DAD4324B8517A0001A9EA /* FZCollectionLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZCollectionLayout.m; sourceTree = "<group>"; };
+		6C3DAD4524B854BB0001A9EA /* FZCollectionViewController+delegates.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FZCollectionViewController+delegates.h"; sourceTree = "<group>"; };
+		6C3DAD4624B854BB0001A9EA /* FZCollectionViewController+delegates.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "FZCollectionViewController+delegates.m"; sourceTree = "<group>"; };
 		6C4127E123B6105100EB157C /* iOSAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C4127E423B6105100EB157C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6C4127E523B6105100EB157C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -65,10 +103,44 @@
 		6C41280723B6105A00EB157C /* iOSAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C41280B23B6105A00EB157C /* iOSAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSAnimationUITests.m; sourceTree = "<group>"; };
 		6C41280D23B6105A00EB157C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C455ACB24D011D100C43E57 /* FZCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZCollectionViewCell.h; sourceTree = "<group>"; };
+		6C455ACC24D011D100C43E57 /* FZCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZCollectionViewCell.m; sourceTree = "<group>"; };
+		6C455ACE24D0240500C43E57 /* clearCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = clearCell.h; sourceTree = "<group>"; };
+		6C455ACF24D0240500C43E57 /* clearCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = clearCell.m; sourceTree = "<group>"; };
 		6C49E34624ACAC4300D73CEB /* HitTestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HitTestView.h; sourceTree = "<group>"; };
 		6C49E34724ACAC4300D73CEB /* HitTestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HitTestView.m; sourceTree = "<group>"; };
 		6C49E34A24ACBBB500D73CEB /* HitTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HitTestViewController.h; sourceTree = "<group>"; };
 		6C49E34B24ACBBB500D73CEB /* HitTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HitTestViewController.m; sourceTree = "<group>"; };
+		6C49E34D24AD81C400D73CEB /* HitTestViewController_1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HitTestViewController_1.h; sourceTree = "<group>"; };
+		6C49E34E24AD81C400D73CEB /* HitTestViewController_1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HitTestViewController_1.m; sourceTree = "<group>"; };
+		6C49E35024AD82F300D73CEB /* HitTestButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HitTestButton.h; sourceTree = "<group>"; };
+		6C49E35124AD82F300D73CEB /* HitTestButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HitTestButton.m; sourceTree = "<group>"; };
+		6C49E36124AF312300D73CEB /* LocalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocalViewController.h; sourceTree = "<group>"; };
+		6C49E36224AF312300D73CEB /* LocalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalViewController.m; sourceTree = "<group>"; };
+		6C50F040250F890400AA446E /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		6C50F042250F893300AA446E /* FZSQLite3Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZSQLite3Test.h; sourceTree = "<group>"; };
+		6C50F043250F893300AA446E /* FZSQLite3Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZSQLite3Test.m; sourceTree = "<group>"; };
+		6C50F045250F89CE00AA446E /* testModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testModel.h; sourceTree = "<group>"; };
+		6C50F046250F89CE00AA446E /* testModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testModel.m; sourceTree = "<group>"; };
+		6C50F049250F8B0600AA446E /* FZSQLiteTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZSQLiteTool.h; sourceTree = "<group>"; };
+		6C50F04A250F8B0600AA446E /* FZSQLiteTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZSQLiteTool.m; sourceTree = "<group>"; };
+		6C50F04C250F8B1800AA446E /* FZModelTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZModelTool.h; sourceTree = "<group>"; };
+		6C50F04D250F8B1800AA446E /* FZModelTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZModelTool.m; sourceTree = "<group>"; };
+		6C50F04F250F8B3B00AA446E /* FZSQLiteModelProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZSQLiteModelProtocol.h; sourceTree = "<group>"; };
+		6C50F0502513016200AA446E /* MRC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MRC.h; path = iOSAnimation/MRC.h; sourceTree = SOURCE_ROOT; };
+		6C50F0512513016200AA446E /* MRC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MRC.m; path = iOSAnimation/MRC.m; sourceTree = SOURCE_ROOT; };
+		6C50F05625130E1C00AA446E /* MRCTEST.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRCTEST.h; sourceTree = "<group>"; };
+		6C50F05725130E1C00AA446E /* MRCTEST.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRCTEST.m; sourceTree = "<group>"; };
+		6C8089CC24CAC2A700FD94CD /* FZDownLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZDownLoader.h; sourceTree = "<group>"; };
+		6C8089CD24CAC2A700FD94CD /* FZDownLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZDownLoader.m; sourceTree = "<group>"; };
+		6C8089CF24CAC49A00FD94CD /* FZFileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZFileManager.h; sourceTree = "<group>"; };
+		6C8089D024CAC49A00FD94CD /* FZFileManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZFileManager.m; sourceTree = "<group>"; };
+		6CDD17A024E0F36100501767 /* FZRemoteAudioPlayerResourceDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZRemoteAudioPlayerResourceDelegate.h; sourceTree = "<group>"; };
+		6CDD17A124E0F36100501767 /* FZRemoteAudioPlayerResourceDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZRemoteAudioPlayerResourceDelegate.m; sourceTree = "<group>"; };
+		6CE396A825184A1B00115594 /* Cpp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Cpp.cpp; sourceTree = "<group>"; };
+		6CE396A925184A1B00115594 /* Cpp.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Cpp.hpp; sourceTree = "<group>"; };
+		6CE396B12518771A00115594 /* ARC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARC.h; sourceTree = "<group>"; };
+		6CE396B22518771A00115594 /* ARC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARC.m; sourceTree = "<group>"; };
 		6FF0F97116D61252E6115488 /* Pods-iOSAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSAnimation.debug.xcconfig"; path = "Target Support Files/Pods-iOSAnimation/Pods-iOSAnimation.debug.xcconfig"; sourceTree = "<group>"; };
 		E41CA6D3B631A21B0B992C8F /* Pods-iOSAnimation-iOSAnimationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSAnimation-iOSAnimationUITests.debug.xcconfig"; path = "Target Support Files/Pods-iOSAnimation-iOSAnimationUITests/Pods-iOSAnimation-iOSAnimationUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E875366EC789484FEB66446D /* Pods-iOSAnimationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSAnimationTests.release.xcconfig"; path = "Target Support Files/Pods-iOSAnimationTests/Pods-iOSAnimationTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -79,6 +151,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C50F041250F890C00AA446E /* libsqlite3.tbd in Frameworks */,
 				F973DA011B154EA4E1A2B858 /* libPods-iOSAnimation.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -102,6 +175,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C1CCC5F24DD3F1F00B2293B /* AudioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				6C1CCC6324DD434600B2293B /* tools */,
+				6C1CCC6024DD3F5200B2293B /* FZRemoteAudioPlayer.h */,
+				6C1CCC6124DD3F5200B2293B /* FZRemoteAudioPlayer.m */,
+				6CDD17A024E0F36100501767 /* FZRemoteAudioPlayerResourceDelegate.h */,
+				6CDD17A124E0F36100501767 /* FZRemoteAudioPlayerResourceDelegate.m */,
+			);
+			path = AudioPlayer;
+			sourceTree = "<group>";
+		};
+		6C1CCC6324DD434600B2293B /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				6C1CCC6424DD436300B2293B /* NSURL+audioPlayer.h */,
+				6C1CCC6524DD436300B2293B /* NSURL+audioPlayer.m */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+		6C1E454E251DBF6E00AFA27D /* dataSturct */ = {
+			isa = PBXGroup;
+			children = (
+				6C1E4550251DBF8800AFA27D /* DynamicArray */,
+				6C1E454F251DBF7F00AFA27D /* LinkedList */,
+			);
+			path = dataSturct;
+			sourceTree = "<group>";
+		};
+		6C1E454F251DBF7F00AFA27D /* LinkedList */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LinkedList;
+			sourceTree = "<group>";
+		};
+		6C1E4550251DBF8800AFA27D /* DynamicArray */ = {
+			isa = PBXGroup;
+			children = (
+				6C1E4551251DC3E000AFA27D /* DynamicArray.h */,
+				6C1E4552251DC3E000AFA27D /* DynamicArray.m */,
+			);
+			path = DynamicArray;
+			sourceTree = "<group>";
+		};
+		6C3DAD3B24B850E10001A9EA /* UICollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				6C3DAD3C24B851020001A9EA /* FZCollectionViewController.h */,
+				6C3DAD3D24B851020001A9EA /* FZCollectionViewController.m */,
+				6C3DAD4524B854BB0001A9EA /* FZCollectionViewController+delegates.h */,
+				6C3DAD4624B854BB0001A9EA /* FZCollectionViewController+delegates.m */,
+				6C3DAD3F24B8515E0001A9EA /* FZCollectionFlowLayout.h */,
+				6C3DAD4024B8515E0001A9EA /* FZCollectionFlowLayout.m */,
+				6C3DAD4224B851790001A9EA /* FZCollectionLayout.h */,
+				6C3DAD4324B8517A0001A9EA /* FZCollectionLayout.m */,
+				6C455ACB24D011D100C43E57 /* FZCollectionViewCell.h */,
+				6C455ACC24D011D100C43E57 /* FZCollectionViewCell.m */,
+				6C455ACE24D0240500C43E57 /* clearCell.h */,
+				6C455ACF24D0240500C43E57 /* clearCell.m */,
+			);
+			path = UICollectionView;
+			sourceTree = "<group>";
+		};
 		6C4127D823B6105000EB157C = {
 			isa = PBXGroup;
 			children = (
@@ -127,9 +265,23 @@
 		6C4127E323B6105100EB157C /* iOSAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				6C1E454E251DBF6E00AFA27D /* dataSturct */,
+				6C50F03F250F88EB00AA446E /* SQlite3 */,
+				6C1CCC5F24DD3F1F00B2293B /* AudioPlayer */,
+				6C8089CB24CAC28C00FD94CD /* downLoad */,
+				6C3DAD3B24B850E10001A9EA /* UICollectionView */,
+				6C49E36024AF310700D73CEB /* local */,
 				6C49E34924ACBA9700D73CEB /* hitTest */,
 				6C4127E423B6105100EB157C /* AppDelegate.h */,
 				6C4127E523B6105100EB157C /* AppDelegate.m */,
+				6C50F05625130E1C00AA446E /* MRCTEST.h */,
+				6C50F05725130E1C00AA446E /* MRCTEST.m */,
+				6C50F0502513016200AA446E /* MRC.h */,
+				6C50F0512513016200AA446E /* MRC.m */,
+				6CE396B12518771A00115594 /* ARC.h */,
+				6CE396B22518771A00115594 /* ARC.m */,
+				6CE396A925184A1B00115594 /* Cpp.hpp */,
+				6CE396A825184A1B00115594 /* Cpp.cpp */,
 				6C4127E723B6105100EB157C /* SceneDelegate.h */,
 				6C4127E823B6105100EB157C /* SceneDelegate.m */,
 				6C4127EA23B6105100EB157C /* ViewController.h */,
@@ -168,13 +320,62 @@
 				6C49E34724ACAC4300D73CEB /* HitTestView.m */,
 				6C49E34A24ACBBB500D73CEB /* HitTestViewController.h */,
 				6C49E34B24ACBBB500D73CEB /* HitTestViewController.m */,
+				6C49E34D24AD81C400D73CEB /* HitTestViewController_1.h */,
+				6C49E34E24AD81C400D73CEB /* HitTestViewController_1.m */,
+				6C49E35024AD82F300D73CEB /* HitTestButton.h */,
+				6C49E35124AD82F300D73CEB /* HitTestButton.m */,
 			);
 			path = hitTest;
+			sourceTree = "<group>";
+		};
+		6C49E36024AF310700D73CEB /* local */ = {
+			isa = PBXGroup;
+			children = (
+				6C49E36124AF312300D73CEB /* LocalViewController.h */,
+				6C49E36224AF312300D73CEB /* LocalViewController.m */,
+			);
+			path = local;
+			sourceTree = "<group>";
+		};
+		6C50F03F250F88EB00AA446E /* SQlite3 */ = {
+			isa = PBXGroup;
+			children = (
+				6C50F048250F8AF400AA446E /* demo */,
+				6C50F042250F893300AA446E /* FZSQLite3Test.h */,
+				6C50F043250F893300AA446E /* FZSQLite3Test.m */,
+				6C50F045250F89CE00AA446E /* testModel.h */,
+				6C50F046250F89CE00AA446E /* testModel.m */,
+			);
+			path = SQlite3;
+			sourceTree = "<group>";
+		};
+		6C50F048250F8AF400AA446E /* demo */ = {
+			isa = PBXGroup;
+			children = (
+				6C50F049250F8B0600AA446E /* FZSQLiteTool.h */,
+				6C50F04A250F8B0600AA446E /* FZSQLiteTool.m */,
+				6C50F04C250F8B1800AA446E /* FZModelTool.h */,
+				6C50F04D250F8B1800AA446E /* FZModelTool.m */,
+				6C50F04F250F8B3B00AA446E /* FZSQLiteModelProtocol.h */,
+			);
+			path = demo;
+			sourceTree = "<group>";
+		};
+		6C8089CB24CAC28C00FD94CD /* downLoad */ = {
+			isa = PBXGroup;
+			children = (
+				6C8089CC24CAC2A700FD94CD /* FZDownLoader.h */,
+				6C8089CD24CAC2A700FD94CD /* FZDownLoader.m */,
+				6C8089CF24CAC49A00FD94CD /* FZFileManager.h */,
+				6C8089D024CAC49A00FD94CD /* FZFileManager.m */,
+			);
+			path = downLoad;
 			sourceTree = "<group>";
 		};
 		8A1980F607261A9EBC548221 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6C50F040250F890400AA446E /* libsqlite3.tbd */,
 				2DF6C73A3CC057DF3BB7E25B /* libPods-iOSAnimation.a */,
 				0341F1A11964A01236AFC1D2 /* libPods-iOSAnimation-iOSAnimationUITests.a */,
 				27D45F96838EA7ECDB06E9BA /* libPods-iOSAnimationTests.a */,
@@ -206,6 +407,7 @@
 				6C4127DD23B6105100EB157C /* Sources */,
 				6C4127DE23B6105100EB157C /* Frameworks */,
 				6C4127DF23B6105100EB157C /* Resources */,
+				BC5072B2CE150F8AA97E41F5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,6 +445,7 @@
 				6C41280323B6105A00EB157C /* Sources */,
 				6C41280423B6105A00EB157C /* Frameworks */,
 				6C41280523B6105A00EB157C /* Resources */,
+				83B4C1232E5D49A6DA1D676A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -368,6 +571,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		83B4C1232E5D49A6DA1D676A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSAnimation-iOSAnimationUITests/Pods-iOSAnimation-iOSAnimationUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSAnimation-iOSAnimationUITests/Pods-iOSAnimation-iOSAnimationUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOSAnimation-iOSAnimationUITests/Pods-iOSAnimation-iOSAnimationUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		98D7D252D6DDD7C8EE822DC3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -390,6 +610,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		BC5072B2CE150F8AA97E41F5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSAnimation/Pods-iOSAnimation-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSAnimation/Pods-iOSAnimation-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOSAnimation/Pods-iOSAnimation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -398,11 +635,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C49E34C24ACBBB500D73CEB /* HitTestViewController.m in Sources */,
+				6C1CCC6624DD436300B2293B /* NSURL+audioPlayer.m in Sources */,
+				6C1CCC6224DD3F5200B2293B /* FZRemoteAudioPlayer.m in Sources */,
+				6C50F044250F893300AA446E /* FZSQLite3Test.m in Sources */,
+				6C3DAD4424B8517A0001A9EA /* FZCollectionLayout.m in Sources */,
+				6C3DAD4124B8515E0001A9EA /* FZCollectionFlowLayout.m in Sources */,
+				6C3DAD4724B854BB0001A9EA /* FZCollectionViewController+delegates.m in Sources */,
 				6C4127EC23B6105100EB157C /* ViewController.m in Sources */,
+				6C8089D124CAC49A00FD94CD /* FZFileManager.m in Sources */,
 				6C4127E623B6105100EB157C /* AppDelegate.m in Sources */,
+				6C1E4553251DC3E000AFA27D /* DynamicArray.m in Sources */,
+				6C49E36324AF312300D73CEB /* LocalViewController.m in Sources */,
+				6C50F0522513016200AA446E /* MRC.m in Sources */,
+				6C455AD024D0240500C43E57 /* clearCell.m in Sources */,
+				6C455ACD24D011D100C43E57 /* FZCollectionViewCell.m in Sources */,
+				6C50F047250F89CE00AA446E /* testModel.m in Sources */,
+				6C49E35224AD82F300D73CEB /* HitTestButton.m in Sources */,
 				6C4127F723B6105800EB157C /* main.m in Sources */,
+				6CDD17A224E0F36100501767 /* FZRemoteAudioPlayerResourceDelegate.m in Sources */,
+				6CE396AA25184A1B00115594 /* Cpp.cpp in Sources */,
+				6C3DAD3E24B851020001A9EA /* FZCollectionViewController.m in Sources */,
+				6C8089CE24CAC2A700FD94CD /* FZDownLoader.m in Sources */,
 				6C49E34824ACAC4300D73CEB /* HitTestView.m in Sources */,
+				6CE396BD251885E300115594 /* ARC.m in Sources */,
 				6C4127E923B6105100EB157C /* SceneDelegate.m in Sources */,
+				6C50F04B250F8B0600AA446E /* FZSQLiteTool.m in Sources */,
+				6C49E34F24AD81C400D73CEB /* HitTestViewController_1.m in Sources */,
+				6C50F05825130E1C00AA446E /* MRCTEST.m in Sources */,
+				6C50F04E250F8B1800AA446E /* FZModelTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
