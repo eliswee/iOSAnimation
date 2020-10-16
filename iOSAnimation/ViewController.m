@@ -7,21 +7,19 @@
 //
 
 #import "ViewController.h"
-
 #import "HitTestViewController.h"
 #import "HitTestViewController_1.h"
-
 #import "FZDownLoader.h"
-
 #import "FZCollectionViewController.h"
-
 #import "FZSQLite3Test.h"
-
 #import "MRC.h"
+#import <UIColor+YYAdd.h>
 
-@interface ViewController ()
 
-@property (nonatomic, strong) FZDownLoader *downLoader;
+
+@interface ViewController () <UITextFieldDelegate>
+
+//@property (nonatomic, strong) FZDownLoader *downLoader;
 
 @end
 
@@ -30,12 +28,12 @@
 // http://u733.195-cmcc-dd.tv002.com/down/79bb62df3dbc9d2f827dbcda21795026/Boostnote-0.11.17.dmg?cts=yd-f-D221A181A101A37F180ba&ctp=221A181A101A37&ctt=1595596617&limit=1&spd=30000&ctk=79bb62df3dbc9d2f827dbcda21795026&chk=b33b6d97c24d0cd83a32f940f1b475e4-85903578&mtd=1
 
 /*
+ tips:
     viewDidLoad方法中modal无效（视图显示出来之前跳转无效）
 */
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [[UIColor purpleColor] colorWithAlphaComponent:0.2];    
-    
 //    [FZSQLite3Test new];
     
 //    NSString *cachePath = NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES).firstObject;
@@ -43,7 +41,6 @@
 //    NSDictionary* dic = @{@"ha" : @"123"};
 //    BOOL b = [dic writeToFile:cachePath atomically:YES];
 }
-
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
@@ -59,23 +56,23 @@
 //    [self presentViewController:hitVC animated:YES completion:nil];
 }
 
-- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-
-//    [self.downLoader downLoadURLStr:@"https://desk-fd.zol-img.com.cn/t_s1920x1080c5/g5/M00/01/0F/ChMkJ1bKwnSIE3zeAAs7wp7GNWsAALGoQKq84kACzva221.jpg"];
-    
-//    NSArray *data = @[@"0", @"1", @"2", @"3", @"4", @"5", @"6", @"7", @"8", @"9", @"10", @"11", @"12", @"13"]; //  @"11",
-//    FZCollectionViewController *fc = [FZCollectionViewController new];
-//    fc.dataStrs = data;
-//    [self presentViewController:fc animated:YES completion:nil];
-}
+//- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+//
+////    [self.downLoader downLoadURLStr:@"https://desk-fd.zol-img.com.cn/t_s1920x1080c5/g5/M00/01/0F/ChMkJ1bKwnSIE3zeAAs7wp7GNWsAALGoQKq84kACzva221.jpg"];
+//
+////    NSArray *data = @[@"0", @"1", @"2", @"3", @"4", @"5", @"6", @"7", @"8", @"9", @"10", @"11", @"12", @"13"]; //  @"11",
+////    FZCollectionViewController *fc = [FZCollectionViewController new];
+////    fc.dataStrs = data;
+////    [self presentViewController:fc animated:YES completion:nil];
+//}
 
 #pragma mark - getters
 
-- (FZDownLoader *)downLoader {
-    if (!_downLoader) {
-        _downLoader = [[FZDownLoader alloc] init];
-    }
-    return _downLoader;
-}
+//- (FZDownLoader *)downLoader {
+//    if (!_downLoader) {
+//        _downLoader = [[FZDownLoader alloc] init];
+//    }
+//    return _downLoader;
+//}
 
 @end

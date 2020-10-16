@@ -19,8 +19,18 @@
     return self;
 }
 
+
 - (void)setupViews {
     
+    CAAnimation *a ;
+    a.delegate = self;
+    
+    UITextField *tx;
+    UIButton *bt;
+//    NSForegroundColorAttributeName
+    
+//    self->_underBtn;
+
 //    NSDictionary *dic = [NSDictionary new];
 //    dic writeToFile:<#(nonnull NSString *)#> atomically:<#(BOOL)#>
 //    [NSDictionary dictionaryWithContentsOfFile:<#(nonnull NSString *)#>]

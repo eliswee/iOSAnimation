@@ -25,6 +25,7 @@
 		6C41280C23B6105A00EB157C /* iOSAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C41280B23B6105A00EB157C /* iOSAnimationUITests.m */; };
 		6C455ACD24D011D100C43E57 /* FZCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C455ACC24D011D100C43E57 /* FZCollectionViewCell.m */; };
 		6C455AD024D0240500C43E57 /* clearCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C455ACF24D0240500C43E57 /* clearCell.m */; };
+		6C45C5CC2521820B002992D0 /* mutableParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C45C5CB2521820B002992D0 /* mutableParams.m */; };
 		6C49E34824ACAC4300D73CEB /* HitTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C49E34724ACAC4300D73CEB /* HitTestView.m */; };
 		6C49E34C24ACBBB500D73CEB /* HitTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C49E34B24ACBBB500D73CEB /* HitTestViewController.m */; };
 		6C49E34F24AD81C400D73CEB /* HitTestViewController_1.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C49E34E24AD81C400D73CEB /* HitTestViewController_1.m */; };
@@ -39,6 +40,9 @@
 		6C50F05825130E1C00AA446E /* MRCTEST.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C50F05725130E1C00AA446E /* MRCTEST.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		6C8089CE24CAC2A700FD94CD /* FZDownLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8089CD24CAC2A700FD94CD /* FZDownLoader.m */; };
 		6C8089D124CAC49A00FD94CD /* FZFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8089D024CAC49A00FD94CD /* FZFileManager.m */; };
+		6C93286F2537F062002672BE /* textFieldGrandientColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C93286E2537F062002672BE /* textFieldGrandientColorView.m */; };
+		6C9328752537F431002672BE /* DynamicCircieArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9328742537F431002672BE /* DynamicCircieArray.m */; };
+		6CDB8EDD2531CAB5005B0FF5 /* tx.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CDB8EDC2531CAB5005B0FF5 /* tx.m */; };
 		6CDD17A224E0F36100501767 /* FZRemoteAudioPlayerResourceDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CDD17A124E0F36100501767 /* FZRemoteAudioPlayerResourceDelegate.m */; };
 		6CE396AA25184A1B00115594 /* Cpp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CE396A825184A1B00115594 /* Cpp.cpp */; };
 		6CE396BD251885E300115594 /* ARC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE396B22518771A00115594 /* ARC.m */; };
@@ -107,6 +111,8 @@
 		6C455ACC24D011D100C43E57 /* FZCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZCollectionViewCell.m; sourceTree = "<group>"; };
 		6C455ACE24D0240500C43E57 /* clearCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = clearCell.h; sourceTree = "<group>"; };
 		6C455ACF24D0240500C43E57 /* clearCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = clearCell.m; sourceTree = "<group>"; };
+		6C45C5CA2521820B002992D0 /* mutableParams.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mutableParams.h; sourceTree = "<group>"; };
+		6C45C5CB2521820B002992D0 /* mutableParams.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mutableParams.m; sourceTree = "<group>"; };
 		6C49E34624ACAC4300D73CEB /* HitTestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HitTestView.h; sourceTree = "<group>"; };
 		6C49E34724ACAC4300D73CEB /* HitTestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HitTestView.m; sourceTree = "<group>"; };
 		6C49E34A24ACBBB500D73CEB /* HitTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HitTestViewController.h; sourceTree = "<group>"; };
@@ -135,6 +141,12 @@
 		6C8089CD24CAC2A700FD94CD /* FZDownLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZDownLoader.m; sourceTree = "<group>"; };
 		6C8089CF24CAC49A00FD94CD /* FZFileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZFileManager.h; sourceTree = "<group>"; };
 		6C8089D024CAC49A00FD94CD /* FZFileManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZFileManager.m; sourceTree = "<group>"; };
+		6C93286D2537F062002672BE /* textFieldGrandientColorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = textFieldGrandientColorView.h; sourceTree = "<group>"; };
+		6C93286E2537F062002672BE /* textFieldGrandientColorView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = textFieldGrandientColorView.m; sourceTree = "<group>"; };
+		6C9328732537F431002672BE /* DynamicCircieArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DynamicCircieArray.h; sourceTree = "<group>"; };
+		6C9328742537F431002672BE /* DynamicCircieArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicCircieArray.m; sourceTree = "<group>"; };
+		6CDB8EDB2531CAB5005B0FF5 /* tx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tx.h; sourceTree = "<group>"; };
+		6CDB8EDC2531CAB5005B0FF5 /* tx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tx.m; sourceTree = "<group>"; };
 		6CDD17A024E0F36100501767 /* FZRemoteAudioPlayerResourceDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZRemoteAudioPlayerResourceDelegate.h; sourceTree = "<group>"; };
 		6CDD17A124E0F36100501767 /* FZRemoteAudioPlayerResourceDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZRemoteAudioPlayerResourceDelegate.m; sourceTree = "<group>"; };
 		6CE396A825184A1B00115594 /* Cpp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Cpp.cpp; sourceTree = "<group>"; };
@@ -217,6 +229,8 @@
 			children = (
 				6C1E4551251DC3E000AFA27D /* DynamicArray.h */,
 				6C1E4552251DC3E000AFA27D /* DynamicArray.m */,
+				6C9328732537F431002672BE /* DynamicCircieArray.h */,
+				6C9328742537F431002672BE /* DynamicCircieArray.m */,
 			);
 			path = DynamicArray;
 			sourceTree = "<group>";
@@ -265,6 +279,7 @@
 		6C4127E323B6105100EB157C /* iOSAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				6C45C5C8252181E3002992D0 /* tips */,
 				6C1E454E251DBF6E00AFA27D /* dataSturct */,
 				6C50F03F250F88EB00AA446E /* SQlite3 */,
 				6C1CCC5F24DD3F1F00B2293B /* AudioPlayer */,
@@ -286,6 +301,8 @@
 				6C4127E823B6105100EB157C /* SceneDelegate.m */,
 				6C4127EA23B6105100EB157C /* ViewController.h */,
 				6C4127EB23B6105100EB157C /* ViewController.m */,
+				6CDB8EDB2531CAB5005B0FF5 /* tx.h */,
+				6CDB8EDC2531CAB5005B0FF5 /* tx.m */,
 				6C4127ED23B6105100EB157C /* Main.storyboard */,
 				6C4127F023B6105800EB157C /* Assets.xcassets */,
 				6C4127F223B6105800EB157C /* LaunchScreen.storyboard */,
@@ -311,6 +328,24 @@
 				6C41280D23B6105A00EB157C /* Info.plist */,
 			);
 			path = iOSAnimationUITests;
+			sourceTree = "<group>";
+		};
+		6C45C5C8252181E3002992D0 /* tips */ = {
+			isa = PBXGroup;
+			children = (
+				6C93286C2537F035002672BE /* textFieldGrandientColor */,
+				6C45C5C9252181E9002992D0 /* 多参数函数 */,
+			);
+			path = tips;
+			sourceTree = "<group>";
+		};
+		6C45C5C9252181E9002992D0 /* 多参数函数 */ = {
+			isa = PBXGroup;
+			children = (
+				6C45C5CA2521820B002992D0 /* mutableParams.h */,
+				6C45C5CB2521820B002992D0 /* mutableParams.m */,
+			);
+			path = "多参数函数";
 			sourceTree = "<group>";
 		};
 		6C49E34924ACBA9700D73CEB /* hitTest */ = {
@@ -370,6 +405,15 @@
 				6C8089D024CAC49A00FD94CD /* FZFileManager.m */,
 			);
 			path = downLoad;
+			sourceTree = "<group>";
+		};
+		6C93286C2537F035002672BE /* textFieldGrandientColor */ = {
+			isa = PBXGroup;
+			children = (
+				6C93286D2537F062002672BE /* textFieldGrandientColorView.h */,
+				6C93286E2537F062002672BE /* textFieldGrandientColorView.m */,
+			);
+			path = textFieldGrandientColor;
 			sourceTree = "<group>";
 		};
 		8A1980F607261A9EBC548221 /* Frameworks */ = {
@@ -635,6 +679,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C49E34C24ACBBB500D73CEB /* HitTestViewController.m in Sources */,
+				6CDB8EDD2531CAB5005B0FF5 /* tx.m in Sources */,
 				6C1CCC6624DD436300B2293B /* NSURL+audioPlayer.m in Sources */,
 				6C1CCC6224DD3F5200B2293B /* FZRemoteAudioPlayer.m in Sources */,
 				6C50F044250F893300AA446E /* FZSQLite3Test.m in Sources */,
@@ -644,7 +689,9 @@
 				6C4127EC23B6105100EB157C /* ViewController.m in Sources */,
 				6C8089D124CAC49A00FD94CD /* FZFileManager.m in Sources */,
 				6C4127E623B6105100EB157C /* AppDelegate.m in Sources */,
+				6C9328752537F431002672BE /* DynamicCircieArray.m in Sources */,
 				6C1E4553251DC3E000AFA27D /* DynamicArray.m in Sources */,
+				6C93286F2537F062002672BE /* textFieldGrandientColorView.m in Sources */,
 				6C49E36324AF312300D73CEB /* LocalViewController.m in Sources */,
 				6C50F0522513016200AA446E /* MRC.m in Sources */,
 				6C455AD024D0240500C43E57 /* clearCell.m in Sources */,
@@ -660,6 +707,7 @@
 				6CE396BD251885E300115594 /* ARC.m in Sources */,
 				6C4127E923B6105100EB157C /* SceneDelegate.m in Sources */,
 				6C50F04B250F8B0600AA446E /* FZSQLiteTool.m in Sources */,
+				6C45C5CC2521820B002992D0 /* mutableParams.m in Sources */,
 				6C49E34F24AD81C400D73CEB /* HitTestViewController_1.m in Sources */,
 				6C50F05825130E1C00AA446E /* MRCTEST.m in Sources */,
 				6C50F04E250F8B1800AA446E /* FZModelTool.m in Sources */,
@@ -833,7 +881,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CTD5323H93;
+				DEVELOPMENT_TEAM = 252Q9TY364;
 				INFOPLIST_FILE = iOSAnimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

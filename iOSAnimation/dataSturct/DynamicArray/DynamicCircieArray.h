@@ -1,21 +1,17 @@
 //
-//  DynamicArray.h
+//  DynamicCircieArray.h
 //  iOSAnimation
 //
-//  Created by may on 2020/9/25.
+//  Created by may on 2020/10/15.
 //  Copyright © 2020 may. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
-
-extern const int DEFAULTCAPACITY;
-extern const int ELEMENTNOTFOND;
+#import "DynamicArray.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface DynamicArray : NSObject
-
-// for int -> for object
+@interface DynamicCircieArray : DynamicArray
 
 - (int)size;
 

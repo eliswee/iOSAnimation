@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "DynamicArray.h"
+#import "DynamicCircieArray.h"
 
 @interface AppDelegate ()
 
@@ -16,8 +18,57 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [self dynamicCircleArrayTest];
     return YES;
+}
+
+- (void)dynamicCircleArrayTest {
+    DynamicCircieArray *array = [DynamicCircieArray new];
+    for (int i = 0; i < 15; i++) {
+        [array add:100+i];
+    }
+    NSLog(@"size:%d", array.size);
+    [array set:9 item:666];
+    
+    for (int i = 0; i < 10; i++) {
+        [array add:i * 100 toIndex:9];
+    }
+    
+    NSLog(@"%@", array);
+    
+    NSLog(@"%d", [array indexOf:666]);
+    
+//    for (int i = 0; i < array.size; i++) {
+//        NSLog(@"%d", [array get:i]);
+//    }
+//    for (int i = 0; i < 10; i++) {
+//        [array remove:1];
+//    }
+//    NSLog(@"size:%d", array.size);
+//    for (int i = 0; i < array.size; i++) {
+//        NSLog(@"%d", [array get:i]);
+//    }
+}
+
+- (void)dynamicArrayTest {
+    
+    DynamicArray *array = [DynamicArray new];
+    for (int i = 0; i < 15; i++) {
+        [array add:100+i];
+    }
+    NSLog(@"size:%d", array.size);
+    [array set:10 item:500];
+    [array add:600 toIndex:10];
+    for (int i = 0; i < array.size; i++) {
+        NSLog(@"%d", [array get:i]);
+    }
+    for (int i = 0; i < 10; i++) {
+        [array remove:1];
+    }
+    NSLog(@"size:%d", array.size);
+    for (int i = 0; i < array.size; i++) {
+        NSLog(@"%d", [array get:i]);
+    }
 }
 
 
