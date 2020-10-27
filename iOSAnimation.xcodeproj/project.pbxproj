@@ -31,6 +31,7 @@
 		6C49E34F24AD81C400D73CEB /* HitTestViewController_1.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C49E34E24AD81C400D73CEB /* HitTestViewController_1.m */; };
 		6C49E35224AD82F300D73CEB /* HitTestButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C49E35124AD82F300D73CEB /* HitTestButton.m */; };
 		6C49E36324AF312300D73CEB /* LocalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C49E36224AF312300D73CEB /* LocalViewController.m */; };
+		6C4B0F97254824690002D509 /* testView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6F39932542CFD100DA2611 /* testView.m */; };
 		6C50F041250F890C00AA446E /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C50F040250F890400AA446E /* libsqlite3.tbd */; };
 		6C50F044250F893300AA446E /* FZSQLite3Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C50F043250F893300AA446E /* FZSQLite3Test.m */; };
 		6C50F047250F89CE00AA446E /* testModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C50F046250F89CE00AA446E /* testModel.m */; };
@@ -137,6 +138,8 @@
 		6C50F0512513016200AA446E /* MRC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MRC.m; path = iOSAnimation/MRC.m; sourceTree = SOURCE_ROOT; };
 		6C50F05625130E1C00AA446E /* MRCTEST.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRCTEST.h; sourceTree = "<group>"; };
 		6C50F05725130E1C00AA446E /* MRCTEST.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRCTEST.m; sourceTree = "<group>"; };
+		6C6F39922542CFD100DA2611 /* testView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testView.h; sourceTree = "<group>"; };
+		6C6F39932542CFD100DA2611 /* testView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testView.m; sourceTree = "<group>"; };
 		6C8089CC24CAC2A700FD94CD /* FZDownLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZDownLoader.h; sourceTree = "<group>"; };
 		6C8089CD24CAC2A700FD94CD /* FZDownLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZDownLoader.m; sourceTree = "<group>"; };
 		6C8089CF24CAC49A00FD94CD /* FZFileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZFileManager.h; sourceTree = "<group>"; };
@@ -279,14 +282,13 @@
 		6C4127E323B6105100EB157C /* iOSAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				6C4B0F8A254822BD0002D509 /* Fondation */,
+				6C4B0F89254822B40002D509 /* UI */,
 				6C45C5C8252181E3002992D0 /* tips */,
 				6C1E454E251DBF6E00AFA27D /* dataSturct */,
 				6C50F03F250F88EB00AA446E /* SQlite3 */,
 				6C1CCC5F24DD3F1F00B2293B /* AudioPlayer */,
 				6C8089CB24CAC28C00FD94CD /* downLoad */,
-				6C3DAD3B24B850E10001A9EA /* UICollectionView */,
-				6C49E36024AF310700D73CEB /* local */,
-				6C49E34924ACBA9700D73CEB /* hitTest */,
 				6C4127E423B6105100EB157C /* AppDelegate.h */,
 				6C4127E523B6105100EB157C /* AppDelegate.m */,
 				6C50F05625130E1C00AA446E /* MRCTEST.h */,
@@ -370,6 +372,25 @@
 				6C49E36224AF312300D73CEB /* LocalViewController.m */,
 			);
 			path = local;
+			sourceTree = "<group>";
+		};
+		6C4B0F89254822B40002D509 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				6C6F39922542CFD100DA2611 /* testView.h */,
+				6C6F39932542CFD100DA2611 /* testView.m */,
+				6C3DAD3B24B850E10001A9EA /* UICollectionView */,
+				6C49E34924ACBA9700D73CEB /* hitTest */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		6C4B0F8A254822BD0002D509 /* Fondation */ = {
+			isa = PBXGroup;
+			children = (
+				6C49E36024AF310700D73CEB /* local */,
+			);
+			path = Fondation;
 			sourceTree = "<group>";
 		};
 		6C50F03F250F88EB00AA446E /* SQlite3 */ = {
@@ -681,6 +702,7 @@
 				6C49E34C24ACBBB500D73CEB /* HitTestViewController.m in Sources */,
 				6CDB8EDD2531CAB5005B0FF5 /* tx.m in Sources */,
 				6C1CCC6624DD436300B2293B /* NSURL+audioPlayer.m in Sources */,
+				6C4B0F97254824690002D509 /* testView.m in Sources */,
 				6C1CCC6224DD3F5200B2293B /* FZRemoteAudioPlayer.m in Sources */,
 				6C50F044250F893300AA446E /* FZSQLite3Test.m in Sources */,
 				6C3DAD4424B8517A0001A9EA /* FZCollectionLayout.m in Sources */,

@@ -18,7 +18,8 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    [self dynamicCircleArrayTest];
+    
+//    [self dynamicCircleArrayTest];
     return YES;
 }
 

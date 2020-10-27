@@ -14,7 +14,7 @@
 #import "FZSQLite3Test.h"
 #import "MRC.h"
 #import <UIColor+YYAdd.h>
-
+#import "testView.h"
 
 
 @interface ViewController () <UITextFieldDelegate>
@@ -35,6 +35,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 //    [FZSQLite3Test new];
+        
+
+
     
 //    NSString *cachePath = NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES).firstObject;
 //    cachePath = [cachePath stringByAppendingPathComponent:@"com.miguvideo.NPSStore"].copy;
@@ -44,6 +47,11 @@
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
+    
+    testView *v = [testView new];
+    v.backgroundColor = [UIColor whiteColor];
+    v.frame = self.view.bounds;
+    [self.view addSubview:v];
     
     
 //    NSMutableString *cachePath = NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES).firstObject.mutableCopy;
