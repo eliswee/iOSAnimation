@@ -1,1 +1,1 @@
-../../../SDWebImage/SDWebImage/Core/UIImage+MemoryCacheCost.h
+../../../../../localPods/SDWebImage-master/SDWebImage/Core/UIImage+MemoryCacheCost.h

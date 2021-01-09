@@ -1,1 +1,1 @@
-../../../SDCycleScrollView/SDCycleScrollView/Lib/SDCycleScrollView/PageControl/TAPageControl.h
+../../../../../localPods/SDCycleScrollView-master/SDCycleScrollView/Lib/SDCycleScrollView/PageControl/TAPageControl.h

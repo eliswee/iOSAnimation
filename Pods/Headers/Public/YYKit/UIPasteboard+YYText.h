@@ -1,1 +1,1 @@
-../../../YYKit/YYKit/Text/String/UIPasteboard+YYText.h
+../../../../../localPods/YYKit-master/YYKit/Text/String/UIPasteboard+YYText.h

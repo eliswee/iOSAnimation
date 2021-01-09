@@ -1,1 +1,1 @@
-../../../SDWebImage/SDWebImage/Core/SDWebImageDownloaderRequestModifier.h
+../../../../../localPods/SDWebImage-master/SDWebImage/Core/SDWebImageDownloaderRequestModifier.h

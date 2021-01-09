@@ -1,1 +1,1 @@
-../../../ReactiveObjC/ReactiveObjC/UITableViewHeaderFooterView+RACSignalSupport.h
+../../../../../localPods/ReactiveObjC-master/ReactiveObjC/UITableViewHeaderFooterView+RACSignalSupport.h

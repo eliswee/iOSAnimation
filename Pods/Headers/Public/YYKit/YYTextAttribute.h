@@ -1,1 +1,1 @@
-../../../YYKit/YYKit/Text/String/YYTextAttribute.h
+../../../../../localPods/YYKit-master/YYKit/Text/String/YYTextAttribute.h

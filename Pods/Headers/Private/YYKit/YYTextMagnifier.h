@@ -1,1 +1,1 @@
-../../../YYKit/YYKit/Text/Component/YYTextMagnifier.h
+../../../../../localPods/YYKit-master/YYKit/Text/Component/YYTextMagnifier.h

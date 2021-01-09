@@ -1,1 +1,1 @@
-../../../AFNetworking/UIKit+AFNetworking/AFAutoPurgingImageCache.h
+../../../../../localPods/AFNetworking-master/UIKit+AFNetworking/AFAutoPurgingImageCache.h

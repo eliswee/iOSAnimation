@@ -1,1 +1,1 @@
-../../../AFNetworking/AFNetworking/AFNetworking.h
+../../../../../localPods/AFNetworking-master/AFNetworking/AFNetworking.h

@@ -1,1 +1,1 @@
-../../../MJRefresh/MJRefresh/UIScrollView+MJRefresh.h
+../../../../../localPods/MJRefresh-master/MJRefresh/UIScrollView+MJRefresh.h

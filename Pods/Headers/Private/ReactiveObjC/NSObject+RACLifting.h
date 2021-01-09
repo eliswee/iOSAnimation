@@ -1,1 +1,1 @@
-../../../ReactiveObjC/ReactiveObjC/NSObject+RACLifting.h
+../../../../../localPods/ReactiveObjC-master/ReactiveObjC/NSObject+RACLifting.h

@@ -1,1 +1,1 @@
-../../../Masonry/Masonry/NSArray+MASShorthandAdditions.h
+../../../../../localPods/Masonry-master/Masonry/NSArray+MASShorthandAdditions.h

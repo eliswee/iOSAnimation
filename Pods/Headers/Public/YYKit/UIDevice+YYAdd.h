@@ -1,1 +1,1 @@
-../../../YYKit/YYKit/Base/UIKit/UIDevice+YYAdd.h
+../../../../../localPods/YYKit-master/YYKit/Base/UIKit/UIDevice+YYAdd.h

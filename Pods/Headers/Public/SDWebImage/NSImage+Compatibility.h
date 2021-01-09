@@ -1,1 +1,1 @@
-../../../SDWebImage/SDWebImage/Core/NSImage+Compatibility.h
+../../../../../localPods/SDWebImage-master/SDWebImage/Core/NSImage+Compatibility.h

@@ -1,1 +1,1 @@
-../../../SDWebImage/SDWebImage/Core/SDWebImageOptionsProcessor.h
+../../../../../localPods/SDWebImage-master/SDWebImage/Core/SDWebImageOptionsProcessor.h

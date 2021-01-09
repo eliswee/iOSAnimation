@@ -1,1 +1,1 @@
-../../../ReactiveObjC/ReactiveObjC/MKAnnotationView+RACSignalSupport.h
+../../../../../localPods/ReactiveObjC-master/ReactiveObjC/MKAnnotationView+RACSignalSupport.h

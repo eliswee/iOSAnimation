@@ -1,1 +1,1 @@
-../../../AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h
+../../../../../localPods/AFNetworking-master/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h

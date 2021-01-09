@@ -1,1 +1,1 @@
-../../../ReactiveObjC/ReactiveObjC/NSEnumerator+RACSequenceAdditions.h
+../../../../../localPods/ReactiveObjC-master/ReactiveObjC/NSEnumerator+RACSequenceAdditions.h

@@ -1,1 +1,1 @@
-../../../SDWebImage/SDWebImage/Core/NSData+ImageContentType.h
+../../../../../localPods/SDWebImage-master/SDWebImage/Core/NSData+ImageContentType.h

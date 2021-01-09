@@ -1,1 +1,1 @@
-../../../ReactiveObjC/ReactiveObjC/NSObject+RACPropertySubscribing.h
+../../../../../localPods/ReactiveObjC-master/ReactiveObjC/NSObject+RACPropertySubscribing.h

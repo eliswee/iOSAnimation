@@ -1,1 +1,1 @@
-../../../SDWebImage/SDWebImage/Core/UIImage+Metadata.h
+../../../../../localPods/SDWebImage-master/SDWebImage/Core/UIImage+Metadata.h

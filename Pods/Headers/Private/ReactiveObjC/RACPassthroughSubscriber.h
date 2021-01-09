@@ -1,1 +1,1 @@
-../../../ReactiveObjC/ReactiveObjC/RACPassthroughSubscriber.h
+../../../../../localPods/ReactiveObjC-master/ReactiveObjC/RACPassthroughSubscriber.h

@@ -1,1 +1,1 @@
-../../../SDWebImage/SDWebImage/Private/SDWeakProxy.h
+../../../../../localPods/SDWebImage-master/SDWebImage/Private/SDWeakProxy.h

@@ -1,1 +1,1 @@
-../../../SDWebImage/SDWebImage/Core/SDImageIOAnimatedCoder.h
+../../../../../localPods/SDWebImage-master/SDWebImage/Core/SDImageIOAnimatedCoder.h

@@ -1,1 +1,1 @@
-../../../AFNetworking/UIKit+AFNetworking/AFImageDownloader.h
+../../../../../localPods/AFNetworking-master/UIKit+AFNetworking/AFImageDownloader.h

@@ -1,1 +1,1 @@
-../../../ReactiveObjC/ReactiveObjC/RACStringSequence.h
+../../../../../localPods/ReactiveObjC-master/ReactiveObjC/RACStringSequence.h

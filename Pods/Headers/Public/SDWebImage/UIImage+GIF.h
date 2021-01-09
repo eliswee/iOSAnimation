@@ -1,1 +1,1 @@
-../../../SDWebImage/SDWebImage/Core/UIImage+GIF.h
+../../../../../localPods/SDWebImage-master/SDWebImage/Core/UIImage+GIF.h

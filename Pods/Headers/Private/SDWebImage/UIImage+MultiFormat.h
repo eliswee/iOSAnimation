@@ -1,1 +1,1 @@
-../../../SDWebImage/SDWebImage/Core/UIImage+MultiFormat.h
+../../../../../localPods/SDWebImage-master/SDWebImage/Core/UIImage+MultiFormat.h

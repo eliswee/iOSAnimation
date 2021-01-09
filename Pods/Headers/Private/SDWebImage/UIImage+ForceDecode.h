@@ -1,1 +1,1 @@
-../../../SDWebImage/SDWebImage/Core/UIImage+ForceDecode.h
+../../../../../localPods/SDWebImage-master/SDWebImage/Core/UIImage+ForceDecode.h

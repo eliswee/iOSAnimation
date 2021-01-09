@@ -1,1 +1,1 @@
-../../../SocketRocket/SocketRocket/SRWebSocket.h
+../../../../../localPods/SocketRocket-master/SocketRocket/SRWebSocket.h

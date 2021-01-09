@@ -1,1 +1,1 @@
-../../../SDWebImage/SDWebImage/Private/SDImageAssetManager.h
+../../../../../localPods/SDWebImage-master/SDWebImage/Private/SDImageAssetManager.h

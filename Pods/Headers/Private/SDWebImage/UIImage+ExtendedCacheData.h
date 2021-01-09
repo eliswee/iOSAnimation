@@ -1,1 +1,1 @@
-../../../SDWebImage/SDWebImage/Core/UIImage+ExtendedCacheData.h
+../../../../../localPods/SDWebImage-master/SDWebImage/Core/UIImage+ExtendedCacheData.h

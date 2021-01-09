@@ -1,1 +1,1 @@
-../../../ReactiveObjC/ReactiveObjC/UIImagePickerController+RACSignalSupport.h
+../../../../../localPods/ReactiveObjC-master/ReactiveObjC/UIImagePickerController+RACSignalSupport.h

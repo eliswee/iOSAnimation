@@ -1,1 +1,1 @@
-../../../SDWebImage/SDWebImage/Core/SDWebImageDownloaderConfig.h
+../../../../../localPods/SDWebImage-master/SDWebImage/Core/SDWebImageDownloaderConfig.h

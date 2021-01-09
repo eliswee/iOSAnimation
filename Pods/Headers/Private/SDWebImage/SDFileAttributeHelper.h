@@ -1,1 +1,1 @@
-../../../SDWebImage/SDWebImage/Private/SDFileAttributeHelper.h
+../../../../../localPods/SDWebImage-master/SDWebImage/Private/SDFileAttributeHelper.h

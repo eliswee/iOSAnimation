@@ -1,1 +1,1 @@
-../../../SDWebImage/SDWebImage/Private/NSBezierPath+SDRoundedCorners.h
+../../../../../localPods/SDWebImage-master/SDWebImage/Private/NSBezierPath+SDRoundedCorners.h

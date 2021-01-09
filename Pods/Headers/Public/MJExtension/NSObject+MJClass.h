@@ -1,1 +1,1 @@
-../../../MJExtension/MJExtension/NSObject+MJClass.h
+../../../../../localPods/MJExtension-master/MJExtension/NSObject+MJClass.h

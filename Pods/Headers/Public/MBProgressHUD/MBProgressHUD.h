@@ -1,1 +1,1 @@
-../../../MBProgressHUD/MBProgressHUD.h
+../../../../../localPods/MBProgressHUD-master/MBProgressHUD.h

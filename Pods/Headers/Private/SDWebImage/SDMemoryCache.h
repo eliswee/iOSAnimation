@@ -1,1 +1,1 @@
-../../../SDWebImage/SDWebImage/Core/SDMemoryCache.h
+../../../../../localPods/SDWebImage-master/SDWebImage/Core/SDMemoryCache.h

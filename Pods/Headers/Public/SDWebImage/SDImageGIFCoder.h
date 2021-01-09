@@ -1,1 +1,1 @@
-../../../SDWebImage/SDWebImage/Core/SDImageGIFCoder.h
+../../../../../localPods/SDWebImage-master/SDWebImage/Core/SDImageGIFCoder.h

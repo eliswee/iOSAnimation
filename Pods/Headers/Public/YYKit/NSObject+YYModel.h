@@ -1,1 +1,1 @@
-../../../YYKit/YYKit/Model/NSObject+YYModel.h
+../../../../../localPods/YYKit-master/YYKit/Model/NSObject+YYModel.h

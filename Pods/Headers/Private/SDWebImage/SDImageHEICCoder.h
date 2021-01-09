@@ -1,1 +1,1 @@
-../../../SDWebImage/SDWebImage/Core/SDImageHEICCoder.h
+../../../../../localPods/SDWebImage-master/SDWebImage/Core/SDImageHEICCoder.h

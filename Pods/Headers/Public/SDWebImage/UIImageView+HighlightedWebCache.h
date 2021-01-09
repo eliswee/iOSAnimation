@@ -1,1 +1,1 @@
-../../../SDWebImage/SDWebImage/Core/UIImageView+HighlightedWebCache.h
+../../../../../localPods/SDWebImage-master/SDWebImage/Core/UIImageView+HighlightedWebCache.h

@@ -1,1 +1,1 @@
-../../../SDWebImage/SDWebImage/Core/SDWebImageCacheSerializer.h
+../../../../../localPods/SDWebImage-master/SDWebImage/Core/SDWebImageCacheSerializer.h

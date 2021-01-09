@@ -1,1 +1,1 @@
-../../../SDWebImage/SDWebImage/Core/SDWebImageError.h
+../../../../../localPods/SDWebImage-master/SDWebImage/Core/SDWebImageError.h

@@ -1,1 +1,1 @@
-../../../YYKit/YYKit/Text/String/YYTextParser.h
+../../../../../localPods/YYKit-master/YYKit/Text/String/YYTextParser.h

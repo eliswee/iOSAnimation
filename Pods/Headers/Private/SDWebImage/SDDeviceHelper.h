@@ -1,1 +1,1 @@
-../../../SDWebImage/SDWebImage/Private/SDDeviceHelper.h
+../../../../../localPods/SDWebImage-master/SDWebImage/Private/SDDeviceHelper.h

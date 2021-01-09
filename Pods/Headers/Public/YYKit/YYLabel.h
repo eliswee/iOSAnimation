@@ -1,1 +1,1 @@
-../../../YYKit/YYKit/Text/YYLabel.h
+../../../../../localPods/YYKit-master/YYKit/Text/YYLabel.h

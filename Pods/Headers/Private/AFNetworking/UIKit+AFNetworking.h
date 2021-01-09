@@ -1,1 +1,1 @@
-../../../AFNetworking/UIKit+AFNetworking/UIKit+AFNetworking.h
+../../../../../localPods/AFNetworking-master/UIKit+AFNetworking/UIKit+AFNetworking.h

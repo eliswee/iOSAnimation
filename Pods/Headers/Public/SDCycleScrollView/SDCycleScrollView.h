@@ -1,1 +1,1 @@
-../../../SDCycleScrollView/SDCycleScrollView/Lib/SDCycleScrollView/SDCycleScrollView.h
+../../../../../localPods/SDCycleScrollView-master/SDCycleScrollView/Lib/SDCycleScrollView/SDCycleScrollView.h

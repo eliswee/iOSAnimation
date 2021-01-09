@@ -1,1 +1,1 @@
-../../../SDWebImage/SDWebImage/Private/SDAssociatedObject.h
+../../../../../localPods/SDWebImage-master/SDWebImage/Private/SDAssociatedObject.h

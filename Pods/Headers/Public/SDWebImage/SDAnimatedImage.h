@@ -1,1 +1,1 @@
-../../../SDWebImage/SDWebImage/Core/SDAnimatedImage.h
+../../../../../localPods/SDWebImage-master/SDWebImage/Core/SDAnimatedImage.h

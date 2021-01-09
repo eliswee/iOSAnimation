@@ -1,1 +1,1 @@
-../../../MJExtension/MJExtension/NSString+MJExtension.h
+../../../../../localPods/MJExtension-master/MJExtension/NSString+MJExtension.h

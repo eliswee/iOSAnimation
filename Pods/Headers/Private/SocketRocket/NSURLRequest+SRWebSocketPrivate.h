@@ -1,0 +1,1 @@
+../../../../../localPods/SocketRocket-master/SocketRocket/Internal/NSURLRequest+SRWebSocketPrivate.h

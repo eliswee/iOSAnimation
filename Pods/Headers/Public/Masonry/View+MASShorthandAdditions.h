@@ -1,1 +1,1 @@
-../../../Masonry/Masonry/View+MASShorthandAdditions.h
+../../../../../localPods/Masonry-master/Masonry/View+MASShorthandAdditions.h

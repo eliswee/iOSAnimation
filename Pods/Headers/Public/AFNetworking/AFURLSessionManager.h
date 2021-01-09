@@ -1,1 +1,1 @@
-../../../AFNetworking/AFNetworking/AFURLSessionManager.h
+../../../../../localPods/AFNetworking-master/AFNetworking/AFURLSessionManager.h

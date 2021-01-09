@@ -1,1 +1,1 @@
-../../../CTMediator/CTMediator/CTMediator/CTMediator+HandyTools.h
+../../../../../localPods/CTMediator-master/CTMediator/CTMediator/CTMediator+HandyTools.h

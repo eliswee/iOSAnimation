@@ -1,1 +1,1 @@
-../../../ReactiveObjC/ReactiveObjC/NSString+RACSupport.h
+../../../../../localPods/ReactiveObjC-master/ReactiveObjC/NSString+RACSupport.h

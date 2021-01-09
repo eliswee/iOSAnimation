@@ -1,1 +1,1 @@
-../../../SDWebImage/SDWebImage/Private/SDImageIOAnimatedCoderInternal.h
+../../../../../localPods/SDWebImage-master/SDWebImage/Private/SDImageIOAnimatedCoderInternal.h

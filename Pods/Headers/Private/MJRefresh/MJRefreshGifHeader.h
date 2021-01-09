@@ -1,1 +1,1 @@
-../../../MJRefresh/MJRefresh/Custom/Header/MJRefreshGifHeader.h
+../../../../../localPods/MJRefresh-master/MJRefresh/Custom/Header/MJRefreshGifHeader.h

@@ -1,1 +1,1 @@
-../../../YYKit/YYKit/Image/YYAnimatedImageView.h
+../../../../../localPods/YYKit-master/YYKit/Image/YYAnimatedImageView.h

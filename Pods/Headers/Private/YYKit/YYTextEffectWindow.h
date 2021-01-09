@@ -1,1 +1,1 @@
-../../../YYKit/YYKit/Text/Component/YYTextEffectWindow.h
+../../../../../localPods/YYKit-master/YYKit/Text/Component/YYTextEffectWindow.h

@@ -1,1 +1,1 @@
-../../../Masonry/Masonry/MASViewAttribute.h
+../../../../../localPods/Masonry-master/Masonry/MASViewAttribute.h

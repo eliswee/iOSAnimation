@@ -1,1 +1,1 @@
-../../../SDWebImage/SDWebImage/Core/SDWebImageTransition.h
+../../../../../localPods/SDWebImage-master/SDWebImage/Core/SDWebImageTransition.h

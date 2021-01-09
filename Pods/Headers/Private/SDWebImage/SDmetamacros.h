@@ -1,1 +1,1 @@
-../../../SDWebImage/SDWebImage/Private/SDmetamacros.h
+../../../../../localPods/SDWebImage-master/SDWebImage/Private/SDmetamacros.h

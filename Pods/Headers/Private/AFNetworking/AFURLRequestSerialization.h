@@ -1,1 +1,1 @@
-../../../AFNetworking/AFNetworking/AFURLRequestSerialization.h
+../../../../../localPods/AFNetworking-master/AFNetworking/AFURLRequestSerialization.h

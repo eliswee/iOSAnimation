@@ -1,1 +1,1 @@
-../../../SDWebImage/SDWebImage/Core/SDImageCoderHelper.h
+../../../../../localPods/SDWebImage-master/SDWebImage/Core/SDImageCoderHelper.h

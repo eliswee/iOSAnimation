@@ -1,1 +1,1 @@
-../../../YYKit/YYKit/Text/String/NSParagraphStyle+YYText.h
+../../../../../localPods/YYKit-master/YYKit/Text/String/NSParagraphStyle+YYText.h

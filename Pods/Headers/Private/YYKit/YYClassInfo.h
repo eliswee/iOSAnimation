@@ -1,1 +1,1 @@
-../../../YYKit/YYKit/Model/YYClassInfo.h
+../../../../../localPods/YYKit-master/YYKit/Model/YYClassInfo.h

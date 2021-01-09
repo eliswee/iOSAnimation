@@ -1,1 +1,1 @@
-../../../YYKit/YYKit/Text/Component/YYTextKeyboardManager.h
+../../../../../localPods/YYKit-master/YYKit/Text/Component/YYTextKeyboardManager.h

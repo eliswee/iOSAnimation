@@ -1,1 +1,1 @@
-../../../SDWebImage/SDWebImage/Core/SDGraphicsImageRenderer.h
+../../../../../localPods/SDWebImage-master/SDWebImage/Core/SDGraphicsImageRenderer.h

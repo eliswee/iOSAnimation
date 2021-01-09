@@ -1,1 +1,1 @@
-../../../YYKit/YYKit/Base/Foundation/NSString+YYAdd.h
+../../../../../localPods/YYKit-master/YYKit/Base/Foundation/NSString+YYAdd.h

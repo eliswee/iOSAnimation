@@ -10,20 +10,26 @@
 
 @implementation testView
 
+- (void)safeAreaInsetsDidChange {
+    [super safeAreaInsetsDidChange];
+}
 
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.
 - (void)drawRect:(CGRect)rect {
-    NSAttributedString *att = [[NSAttributedString alloc] initWithString:@"哈哈哈哈" attributes:@{NSFontAttributeName : [UIFont fontWithName:@"PingFangSC-Medium" size:15]}];
+    NSAttributedString *att = [[NSAttributedString alloc] initWithString:@"哈哈哈哈" attributes:@{NSFontAttributeName : [UIFont fontWithName:@"PingFangSC-Medium" size:19]}];
     UILabel *lab = [UILabel new];
     lab.attributedText = att;
+    
+    lab.frame = CGRectMake(80, 100, 0, 0);
     
     [self addSubview:lab];
     [lab sizeToFit];
     
     
-    
-    NSLog(@"%@", [NSString stringWithFormat:@"%f", lab.font.capHeight]);
+    NSLog(@"faName:%@", lab.font.familyName);
+    NSLog(@"name:%@", lab.font.fontName);
+    NSLog(@"%@", [NSString stringWithFormat:@"capHeight-%f    xHeight-%f    lineHeight:", lab.font.capHeight, lab.font.xHeight, lab.font.lineHeight]);
     
     
 //    UIBezierPath *re = [UIBezierPath bezierPathWithRect:CGRectMake(30, 100, 100, 100)];

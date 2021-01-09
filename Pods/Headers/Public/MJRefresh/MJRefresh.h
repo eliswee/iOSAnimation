@@ -1,1 +1,1 @@
-../../../MJRefresh/MJRefresh/MJRefresh.h
+../../../../../localPods/MJRefresh-master/MJRefresh/MJRefresh.h

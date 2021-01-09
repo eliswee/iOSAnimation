@@ -1,1 +1,1 @@
-../../../ReactiveObjC/ReactiveObjC/UIBarButtonItem+RACCommandSupport.h
+../../../../../localPods/ReactiveObjC-master/ReactiveObjC/UIBarButtonItem+RACCommandSupport.h

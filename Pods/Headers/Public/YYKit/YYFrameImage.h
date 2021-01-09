@@ -1,1 +1,1 @@
-../../../YYKit/YYKit/Image/YYFrameImage.h
+../../../../../localPods/YYKit-master/YYKit/Image/YYFrameImage.h

@@ -1,1 +1,1 @@
-../../../MJRefresh/MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.h
+../../../../../localPods/MJRefresh-master/MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.h

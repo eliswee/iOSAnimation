@@ -1,1 +1,1 @@
-../../../YYKit/YYKit/Utility/YYGestureRecognizer.h
+../../../../../localPods/YYKit-master/YYKit/Utility/YYGestureRecognizer.h

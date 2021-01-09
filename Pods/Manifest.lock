@@ -15,22 +15,20 @@ PODS:
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
   - CTMediator (32)
-  - FMDB (2.7.5):
-    - FMDB/standard (= 2.7.5)
-  - FMDB/standard (2.7.5)
+  - FMDB (2.7.7):
+    - FMDB/standard (= 2.7.7)
+  - FMDB/standard (2.7.7)
+  - HJDanmaku (2.0.6)
   - Masonry (1.1.0)
   - MBProgressHUD (1.2.0)
-  - MJExtension (3.2.2)
+  - MJExtension (3.2.1)
   - MJRefresh (3.4.3)
   - ReactiveObjC (3.1.1)
-  - Realm (5.2.0):
-    - Realm/Headers (= 5.2.0)
-  - Realm/Headers (5.2.0)
   - SDCycleScrollView (1.80):
     - SDWebImage (>= 5.0.0)
-  - SDWebImage (5.8.3):
-    - SDWebImage/Core (= 5.8.3)
-  - SDWebImage/Core (5.8.3)
+  - SDWebImage (5.8.1):
+    - SDWebImage/Core (= 5.8.1)
+  - SDWebImage/Core (5.8.1)
   - SocketRocket (0.5.1)
   - YTKNetwork (3.0.0):
     - AFNetworking/NSURLSession (~> 4.0)
@@ -39,54 +37,67 @@ PODS:
   - YYKit/no-arc (1.0.9)
 
 DEPENDENCIES:
-  - AFNetworking
-  - CTMediator
-  - FMDB
-  - Masonry
-  - MBProgressHUD
-  - MJExtension
-  - MJRefresh
-  - ReactiveObjC
-  - Realm
-  - SDCycleScrollView
-  - SDWebImage
-  - SocketRocket
-  - YTKNetwork
-  - YYKit
+  - AFNetworking (from `../localPods/AFNetworking-master/`)
+  - CTMediator (from `../localPods/CTMediator-master/`)
+  - FMDB (from `../localPods/fmdb-master/`)
+  - HJDanmaku (from `../localPods/HJDanmakuDemo-master/`)
+  - Masonry (from `../localPods/Masonry-master/`)
+  - MBProgressHUD (from `../localPods/MBProgressHUD-master/`)
+  - MJExtension (from `../localPods/MJExtension-master/`)
+  - MJRefresh (from `../localPods/MJRefresh-master/`)
+  - ReactiveObjC (from `../localPods/ReactiveObjC-master/`)
+  - SDCycleScrollView (from `../localPods/SDCycleScrollView-master/`)
+  - SDWebImage (from `../localPods/SDWebImage-master/`)
+  - SocketRocket (from `../localPods/SocketRocket-master/`)
+  - YTKNetwork (from `../localPods/YTKNetwork-master/`)
+  - YYKit (from `../localPods/YYKit-master`)
 
-SPEC REPOS:
-  trunk:
-    - AFNetworking
-    - CTMediator
-    - FMDB
-    - Masonry
-    - MBProgressHUD
-    - MJExtension
-    - MJRefresh
-    - ReactiveObjC
-    - Realm
-    - SDCycleScrollView
-    - SDWebImage
-    - SocketRocket
-    - YTKNetwork
-    - YYKit
+EXTERNAL SOURCES:
+  AFNetworking:
+    :path: "../localPods/AFNetworking-master/"
+  CTMediator:
+    :path: "../localPods/CTMediator-master/"
+  FMDB:
+    :path: "../localPods/fmdb-master/"
+  HJDanmaku:
+    :path: "../localPods/HJDanmakuDemo-master/"
+  Masonry:
+    :path: "../localPods/Masonry-master/"
+  MBProgressHUD:
+    :path: "../localPods/MBProgressHUD-master/"
+  MJExtension:
+    :path: "../localPods/MJExtension-master/"
+  MJRefresh:
+    :path: "../localPods/MJRefresh-master/"
+  ReactiveObjC:
+    :path: "../localPods/ReactiveObjC-master/"
+  SDCycleScrollView:
+    :path: "../localPods/SDCycleScrollView-master/"
+  SDWebImage:
+    :path: "../localPods/SDWebImage-master/"
+  SocketRocket:
+    :path: "../localPods/SocketRocket-master/"
+  YTKNetwork:
+    :path: "../localPods/YTKNetwork-master/"
+  YYKit:
+    :path: "../localPods/YYKit-master"
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
   CTMediator: 10f2c387be0ab2061b75b88c86f9903eedba1ce8
-  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  FMDB: 8d1f4425d67d888977c57c2f4edda6c31d4c1ac7
+  HJDanmaku: b3891e906e0dd1cefa39ccf43253a1ca1efb9241
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
-  MJExtension: d9b9c74cbdeb724c1e9ecbb157b318276e62e876
+  MJExtension: 635f2c663dcb1bf76fa4b715b2570a5710aec545
   MJRefresh: 53e3e3219f204425ee6d3e62e8733d3295944cd6
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
-  Realm: f749c723e272f08fdf1939af5e61d2bd09b203e8
   SDCycleScrollView: b3c9a5ed840c771c4938978174c7c9d9feefeb96
-  SDWebImage: 112503ec94a5a2a41869503844a15e8d8f1ead5c
-  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+  SDWebImage: e3eae2eda88578db0685a0c88597fdadd9433f05
+  SocketRocket: dbb1554b8fc288ef8ef370d6285aeca7361be31e
   YTKNetwork: 0587ce85fda2e2c591405089cc9aaa61649aa5ed
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 2ed68112d46547b32e57dd4275221d5506fb558c
+PODFILE CHECKSUM: 33a86c6f5520d110a9e3f68ef56eb1d120ef610d
 
 COCOAPODS: 1.9.3

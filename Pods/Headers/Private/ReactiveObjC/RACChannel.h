@@ -1,1 +1,1 @@
-../../../ReactiveObjC/ReactiveObjC/RACChannel.h
+../../../../../localPods/ReactiveObjC-master/ReactiveObjC/RACChannel.h

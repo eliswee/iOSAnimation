@@ -1,1 +1,1 @@
-../../../YYKit/YYKit/Base/UIKit/UIScreen+YYAdd.h
+../../../../../localPods/YYKit-master/YYKit/Base/UIKit/UIScreen+YYAdd.h

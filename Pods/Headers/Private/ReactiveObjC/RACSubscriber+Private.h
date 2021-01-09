@@ -1,1 +1,1 @@
-../../../ReactiveObjC/ReactiveObjC/RACSubscriber+Private.h
+../../../../../localPods/ReactiveObjC-master/ReactiveObjC/RACSubscriber+Private.h

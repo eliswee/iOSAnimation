@@ -1,1 +1,1 @@
-../../../SDWebImage/SDWebImage/Private/UIColor+SDHexString.h
+../../../../../localPods/SDWebImage-master/SDWebImage/Private/UIColor+SDHexString.h

@@ -1,1 +1,1 @@
-../../../ReactiveObjC/ReactiveObjC/RACBehaviorSubject.h
+../../../../../localPods/ReactiveObjC-master/ReactiveObjC/RACBehaviorSubject.h

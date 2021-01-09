@@ -1,1 +1,1 @@
-../../../SDWebImage/SDWebImage/Core/SDImageTransformer.h
+../../../../../localPods/SDWebImage-master/SDWebImage/Core/SDImageTransformer.h

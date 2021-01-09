@@ -13,7 +13,9 @@
 @property (nonatomic, assign) int size;
 @property (nonatomic, assign) int *container;
 @property (nonatomic, assign) int capacity;
-@property (nonatomic, assign) int head;
+@property (nonatomic, assign) int front;
+
+@property (nonatomic, assign) int tail;
 
 @end
 
@@ -23,6 +25,7 @@
 
 - (void)dealloc {
     free(self.container);
+    NSLog(@"free-%p", &self);
 }
 
 - (instancetype)init {
@@ -38,7 +41,8 @@
         self.capacity = capacity;
         self.container = calloc(capacity, sizeof(int));
         self.size = 0;
-        self.head = 0;
+        self.front = 0;
+        self.tail = 0;
     }
     return self;
 }
@@ -70,7 +74,7 @@
 }
 
 - (void)add:(int)item toIndex:(int)index {
-    if (index > self.size) {
+    if (index > self.size || index < 0) {
         NSAssert(NO, @"error: index over size");
     }
     [self ensureCapacity];
@@ -95,6 +99,20 @@
 
 - (void)remove:(int)index {
     
+//    if (index >= self.size) {
+//        NSAssert(NO, @"index over size");
+//        return;
+//    } else if (index == 0) {
+//        self.size--;
+//        self.head = handleIndex(self, self.head + 1);
+//    } else if (index == self.tail) {
+//        self.size--;
+//        self.tail = handleIndex(self, self.tail - 1);
+//    } else {
+//        for (int i = ; <#condition#>; <#increment#>) {
+//            <#statements#>
+//        }
+//    }
 }
 
 - (int)indexOf:(int)item {
@@ -107,21 +125,27 @@
 }
 
 - (void)clear {
-    memset(self.container, 0, sizeof(int) * self.capacity);
-    self.size = 0;
-    self.head = 0;
-    if (self.capacity != DEFAULTCAPACITY) {
-        self.capacity = DEFAULTCAPACITY;
-        int *temp = calloc(DEFAULTCAPACITY, sizeof(int));
-        free(self.container);
-        self.container = temp;
-    }
+//    memset(self.container, 0, sizeof(int) * self.capacity);
+//    self.size = 0;
+//    self.head = 0;
+//    if (self.capacity != DEFAULTCAPACITY) {
+//        self.capacity = DEFAULTCAPACITY;
+//        int *temp = calloc(DEFAULTCAPACITY, sizeof(int));
+//        free(self.container);
+//        self.container = temp;
+//    }
 }
 
 #pragma mark - pri
 
 static inline int handleIndex(DynamicCircieArray *self, int index) {
-    return (self.head + index) % self.capacity;
+    
+//    index += self.capacity;
+//    if (index < 0) {
+//
+//    }
+//    return (self.head + index) % self.capacity;
+    return 0;
 }
 
 - (void)ensureCapacity {
@@ -138,16 +162,16 @@ static inline int handleIndex(DynamicCircieArray *self, int index) {
 
 - (void)resizeTo:(int)newCapacity {
     
-    NSLog(@"resize: currentSize:%d, currentCapacity:%d targetCapacity:%d", self.size, self.capacity, newCapacity);
-    
-    int *temp = calloc(newCapacity, sizeof(int));
-    for (int i = self.head; i < self.size; i++) {
-        temp[i] = self.container[(self.head + i) % self.capacity];
-    }
-    free(self.container);
-    self.container = temp;
-    self.head = 0;
-    self.capacity = newCapacity;
+//    NSLog(@"resize: currentSize:%d, currentCapacity:%d targetCapacity:%d", self.size, self.capacity, newCapacity);
+//
+//    int *temp = calloc(newCapacity, sizeof(int));
+//    for (int i = self.head; i < self.size; i++) {
+//        temp[i] = self.container[(self.head + i) % self.capacity];
+//    }
+//    free(self.container);
+//    self.container = temp;
+//    self.head = 0;
+//    self.capacity = newCapacity;
 }
 
 - (NSString *)description {

@@ -1,1 +1,1 @@
-../../../SDCycleScrollView/SDCycleScrollView/Lib/SDCycleScrollView/PageControl/TAAnimatedDotView.h
+../../../../../localPods/SDCycleScrollView-master/SDCycleScrollView/Lib/SDCycleScrollView/PageControl/TAAnimatedDotView.h

@@ -1,1 +1,1 @@
-../../../ReactiveObjC/ReactiveObjC/UIGestureRecognizer+RACSignalSupport.h
+../../../../../localPods/ReactiveObjC-master/ReactiveObjC/UIGestureRecognizer+RACSignalSupport.h

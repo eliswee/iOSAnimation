@@ -1,1 +1,1 @@
-../../../YYKit/YYKit/Text/Component/YYTextDebugOption.h
+../../../../../localPods/YYKit-master/YYKit/Text/Component/YYTextDebugOption.h

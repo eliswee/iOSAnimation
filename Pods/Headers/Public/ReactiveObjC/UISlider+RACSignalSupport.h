@@ -1,1 +1,1 @@
-../../../ReactiveObjC/ReactiveObjC/UISlider+RACSignalSupport.h
+../../../../../localPods/ReactiveObjC-master/ReactiveObjC/UISlider+RACSignalSupport.h

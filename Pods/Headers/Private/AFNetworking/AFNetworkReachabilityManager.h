@@ -1,1 +1,1 @@
-../../../AFNetworking/AFNetworking/AFNetworkReachabilityManager.h
+../../../../../localPods/AFNetworking-master/AFNetworking/AFNetworkReachabilityManager.h

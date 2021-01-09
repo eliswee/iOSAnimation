@@ -1,1 +1,1 @@
-../../../MJExtension/MJExtension/MJProperty.h
+../../../../../localPods/MJExtension-master/MJExtension/MJProperty.h

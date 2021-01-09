@@ -9,6 +9,9 @@
 #import "AppDelegate.h"
 #import "DynamicArray.h"
 #import "DynamicCircieArray.h"
+#import "LinkedList.h"
+
+#import "son.h"
 
 @interface AppDelegate ()
 
@@ -18,9 +21,40 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
+//    [self testLinkedList];
 //    [self dynamicCircleArrayTest];
+    
+    son *s = [son new];
+    s.name = @"321";
+    NSLog(@"%@", s.name);
+    
+    
     return YES;
+}
+
+- (void)testLinkedList {
+    LinkedList *list = [LinkedList new];
+    
+    for (int i = 0; i < 10 ; i++) {
+        [list addFirst:i];
+    }
+    NSLog(@"%@", list);
+    
+    for (int i = 0; i < 3; i++) {
+        [list add:(i+1) * 10 toIndex:3];
+    }
+    NSLog(@"%@", list);
+    
+    for (int i = 0; i < 3; i++) {
+        [list addLast: i + 100];
+    }
+    NSLog(@"%@", list);
+    
+    [list removeFirst];
+    NSLog(@"%@", list);
+    
+    [list removeLast];
+    NSLog(@"%@", list);
 }
 
 - (void)dynamicCircleArrayTest {

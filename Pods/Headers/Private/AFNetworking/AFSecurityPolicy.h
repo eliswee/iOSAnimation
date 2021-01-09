@@ -1,1 +1,1 @@
-../../../AFNetworking/AFNetworking/AFSecurityPolicy.h
+../../../../../localPods/AFNetworking-master/AFNetworking/AFSecurityPolicy.h
