@@ -1,6 +1,6 @@
 {
   "name": "YTKNetwork",
-  "version": "3.0.0",
+  "version": "3.0.4",
   "summary": "YTKNetwork is a high level request util based on AFNetworking.",
   "homepage": "https://github.com/yuantiku/YTKNetwork",
   "license": "MIT",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/yuantiku/YTKNetwork.git",
-    "tag": "3.0.0"
+    "tag": "3.0.4"
   },
   "source_files": "YTKNetwork/*.{h,m}",
   "requires_arc": true,

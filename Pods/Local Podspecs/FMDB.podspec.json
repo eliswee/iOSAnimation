@@ -12,13 +12,11 @@
     "tag": "2.7.7"
   },
   "requires_arc": true,
-  "default_subspecs": "standard",
   "platforms": {
-    "osx": null,
-    "ios": null,
-    "tvos": null,
-    "watchos": null
+    "osx": "10.11",
+    "ios": "9.0"
   },
+  "default_subspecs": "standard",
   "subspecs": [
     {
       "name": "standard",

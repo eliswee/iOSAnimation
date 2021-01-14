@@ -34,6 +34,10 @@ target 'iOSAnimation' do
   pod 'FMDB' , :path=>'../localPods/fmdb-master/'
 
   pod 'HJDanmaku' , :path=>'../localPods/HJDanmakuDemo-master/'
+
+  pod 'OCBarrage', :path=>'../localPods/OCBarrage-master/'
+  
+  pod 'WCDB', :path=>'../localPods/wcdb-master/'
   
   # Pods for iOSAnimation
 

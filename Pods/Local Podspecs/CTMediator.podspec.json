@@ -1,6 +1,6 @@
 {
   "name": "CTMediator",
-  "version": "32",
+  "version": "44",
   "summary": "CTMediator.",
   "description": "this is CTMediator",
   "homepage": "https://github.com/casatwy/CTMediator",
@@ -12,12 +12,16 @@
     "Casa Taloyum": "casatwy@msn.com"
   },
   "platforms": {
-    "ios": "7.0"
+    "ios": "7.0",
+    "osx": "10.12"
   },
   "source": {
     "git": "https://github.com/casatwy/CTMediator.git",
-    "tag": "32"
+    "tag": "44"
   },
   "source_files": "CTMediator/CTMediator/**/*.{h,m}",
-  "frameworks": "UIKit"
+  "frameworks": [
+    "Foundation",
+    "CoreGraphics"
+  ]
 }

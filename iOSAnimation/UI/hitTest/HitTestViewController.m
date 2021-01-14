@@ -26,8 +26,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.view.backgroundColor = [[UIColor greenColor] colorWithAlphaComponent:0.1];
-    
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
     btn.backgroundColor = [UIColor grayColor];
     btn.frame = CGRectMake(0, self.view.height/2, self.view.height, 30);

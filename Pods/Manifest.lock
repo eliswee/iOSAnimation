@@ -14,23 +14,30 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
-  - CTMediator (32)
+  - CTMediator (44)
   - FMDB (2.7.7):
     - FMDB/standard (= 2.7.7)
   - FMDB/standard (2.7.7)
   - HJDanmaku (2.0.6)
   - Masonry (1.1.0)
   - MBProgressHUD (1.2.0)
-  - MJExtension (3.2.1)
-  - MJRefresh (3.4.3)
+  - MJExtension (3.2.2)
+  - MJRefresh (3.5.0)
+  - OCBarrage (1.0.5)
   - ReactiveObjC (3.1.1)
-  - SDCycleScrollView (1.80):
+  - SDCycleScrollView (1.82):
     - SDWebImage (>= 5.0.0)
-  - SDWebImage (5.8.1):
-    - SDWebImage/Core (= 5.8.1)
-  - SDWebImage/Core (5.8.1)
+  - SDWebImage (5.10.2):
+    - SDWebImage/Core (= 5.10.2)
+  - SDWebImage/Core (5.10.2)
   - SocketRocket (0.5.1)
-  - YTKNetwork (3.0.0):
+  - SQLiteRepairKit (1.2.2):
+    - WCDBOptimizedSQLCipher (~> 1.2.0)
+  - WCDB (1.0.7.5):
+    - SQLiteRepairKit (~> 1.2.0)
+    - WCDBOptimizedSQLCipher (~> 1.2.0)
+  - WCDBOptimizedSQLCipher (1.2.1)
+  - YTKNetwork (3.0.4):
     - AFNetworking/NSURLSession (~> 4.0)
   - YYKit (1.0.9):
     - YYKit/no-arc (= 1.0.9)
@@ -45,12 +52,19 @@ DEPENDENCIES:
   - MBProgressHUD (from `../localPods/MBProgressHUD-master/`)
   - MJExtension (from `../localPods/MJExtension-master/`)
   - MJRefresh (from `../localPods/MJRefresh-master/`)
+  - OCBarrage (from `../localPods/OCBarrage-master/`)
   - ReactiveObjC (from `../localPods/ReactiveObjC-master/`)
   - SDCycleScrollView (from `../localPods/SDCycleScrollView-master/`)
   - SDWebImage (from `../localPods/SDWebImage-master/`)
   - SocketRocket (from `../localPods/SocketRocket-master/`)
+  - WCDB (from `../localPods/wcdb-master/`)
   - YTKNetwork (from `../localPods/YTKNetwork-master/`)
   - YYKit (from `../localPods/YYKit-master`)
+
+SPEC REPOS:
+  trunk:
+    - SQLiteRepairKit
+    - WCDBOptimizedSQLCipher
 
 EXTERNAL SOURCES:
   AFNetworking:
@@ -69,6 +83,8 @@ EXTERNAL SOURCES:
     :path: "../localPods/MJExtension-master/"
   MJRefresh:
     :path: "../localPods/MJRefresh-master/"
+  OCBarrage:
+    :path: "../localPods/OCBarrage-master/"
   ReactiveObjC:
     :path: "../localPods/ReactiveObjC-master/"
   SDCycleScrollView:
@@ -77,6 +93,8 @@ EXTERNAL SOURCES:
     :path: "../localPods/SDWebImage-master/"
   SocketRocket:
     :path: "../localPods/SocketRocket-master/"
+  WCDB:
+    :path: "../localPods/wcdb-master/"
   YTKNetwork:
     :path: "../localPods/YTKNetwork-master/"
   YYKit:
@@ -84,20 +102,24 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
-  CTMediator: 10f2c387be0ab2061b75b88c86f9903eedba1ce8
-  FMDB: 8d1f4425d67d888977c57c2f4edda6c31d4c1ac7
+  CTMediator: 933dba523da87bf875e4a7e8728945fbc512f1d2
+  FMDB: 70c872c0cdf89dae8375e9fc8ba243be55fe9de5
   HJDanmaku: b3891e906e0dd1cefa39ccf43253a1ca1efb9241
-  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
-  MJExtension: 635f2c663dcb1bf76fa4b715b2570a5710aec545
-  MJRefresh: 53e3e3219f204425ee6d3e62e8733d3295944cd6
+  Masonry: 890751a1008d6f33a97b032f4ecad4870d7eed3a
+  MBProgressHUD: 81cfc510382828962d6fd893c003d1b2beee386c
+  MJExtension: d9b9c74cbdeb724c1e9ecbb157b318276e62e876
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+  OCBarrage: 5ee1a922afacb2c04739621ccda71872185e2e59
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
-  SDCycleScrollView: b3c9a5ed840c771c4938978174c7c9d9feefeb96
-  SDWebImage: e3eae2eda88578db0685a0c88597fdadd9433f05
+  SDCycleScrollView: a0d74c3384caa72bdfc81470bdbc8c14b3e1fbcf
+  SDWebImage: b969dcfc02c40a5da71eac0b03b8f1a0c794a86f
   SocketRocket: dbb1554b8fc288ef8ef370d6285aeca7361be31e
-  YTKNetwork: 0587ce85fda2e2c591405089cc9aaa61649aa5ed
+  SQLiteRepairKit: 35aaae5a8838adb85f5b1eb4d796055be6060a4b
+  WCDB: 8e90babdeb7784c569353a4bd22a66c0a175a882
+  WCDBOptimizedSQLCipher: baf44493b0c7a3d49e97bc5b64a3856f6428ddd1
+  YTKNetwork: a096f80c18c7e7cc0e623a0fbea0a1bfd3f5bcf2
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 33a86c6f5520d110a9e3f68ef56eb1d120ef610d
+PODFILE CHECKSUM: db04681f0a9cba017dd02618407fa78d83e5b237
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.10.1

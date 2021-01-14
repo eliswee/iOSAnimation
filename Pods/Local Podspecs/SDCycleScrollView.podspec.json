@@ -1,7 +1,7 @@
 {
   "name": "SDCycleScrollView",
-  "version": "1.80",
-  "summary": "简单易用的图片无限轮播器. 1.80版本更新内容：适配SDWebImage 5.0.0",
+  "version": "1.82",
+  "summary": "简单易用的图片无限轮播器. 1.82版本更新内容：修复iOS14上系统自带pagecontrol显示不出来bug",
   "homepage": "https://github.com/gsdios/SDCycleScrollView",
   "license": "MIT",
   "authors": {
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/gsdios/SDCycleScrollView.git",
-    "tag": "1.80"
+    "tag": "1.82"
   },
   "source_files": "SDCycleScrollView/Lib/SDCycleScrollView/**/*.{h,m}",
   "requires_arc": true,

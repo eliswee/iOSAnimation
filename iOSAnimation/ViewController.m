@@ -17,6 +17,7 @@
 #import "testView.h"
 
 #import <pthread.h>
+#import "lock.h"
 
 @interface ViewController () <UITextFieldDelegate> {
 //    NSString *_haha;
@@ -77,6 +78,7 @@ int foo (int a, int b) {
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [lock new];
     
 //    [FZSQLite3Test new];
     
@@ -106,7 +108,7 @@ int foo (int a, int b) {
 //
 //    NSLog(@"%d, %d", testStr.a, testStr.b);
     
-
+    self.view.backgroundColor = [UIColor greenColor];
     
 //    NSString *cachePath = NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES).firstObject;
 //    cachePath = [cachePath stringByAppendingPathComponent:@"com.miguvideo.NPSStore"].copy;
