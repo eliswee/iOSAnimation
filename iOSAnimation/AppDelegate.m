@@ -28,6 +28,8 @@
     s.name = @"321";
     NSLog(@"%@", s.name);
     
+//    NSExpression
+//    NSException *exp
     
     return YES;
 }
